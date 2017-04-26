@@ -15,6 +15,8 @@ namespace Mini_Keyboard
     {
         //Global Variables
         String Mode = "Multi-Press";
+        int Interval = 500;
+        int Click = 0;
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +35,11 @@ namespace Mini_Keyboard
                 txt_ModeStatus.Text = "Multi-Press";
                 Mode = "Multi-Press";
             }
+        }
+
+        private void btn_8_Click(object sender, EventArgs e)
+        {
+            Click = Click++;
         }
     }
 }

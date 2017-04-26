@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +54,7 @@
             this.btn_Blank = new System.Windows.Forms.Button();
             this.btn_Blank2 = new System.Windows.Forms.Button();
             this.btn_Enter = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,6 +157,7 @@
             this.btn_8.TabIndex = 8;
             this.btn_8.Text = "8\r\nABC";
             this.btn_8.UseVisualStyleBackColor = false;
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             // 
             // btn_9
             // 
@@ -294,6 +297,11 @@
             this.btn_Enter.Text = "Enter";
             this.btn_Enter.UseVisualStyleBackColor = false;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 500;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,6 +366,7 @@
         private System.Windows.Forms.Button btn_Blank;
         private System.Windows.Forms.Button btn_Blank2;
         private System.Windows.Forms.Button btn_Enter;
+        private System.Windows.Forms.Timer timer1;
 
     }
 }
