@@ -1,1 +1,9 @@
 C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\bin\Debug\Mini Keyboard.exe.config
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\bin\Debug\Mini Keyboard.exe
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\bin\Debug\Mini Keyboard.pdb
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini Keyboard.csprojResolveAssemblyReference.cache
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini_Keyboard.Form1.resources
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini_Keyboard.Properties.Resources.resources
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini Keyboard.csproj.GenerateResource.Cache
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini Keyboard.exe
+C:\Users\obigg_000\Documents\Visual Studio 2013\Projects\Mini Keyboard\Mini Keyboard\obj\Debug\Mini Keyboard.pdb

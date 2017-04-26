@@ -110,7 +110,7 @@
             this.btn_Mode.Name = "btn_Mode";
             this.btn_Mode.Size = new System.Drawing.Size(50, 50);
             this.btn_Mode.TabIndex = 4;
-            this.btn_Mode.Text = "button1";
+            this.btn_Mode.Text = "Mode";
             this.btn_Mode.UseVisualStyleBackColor = true;
             // 
             // btn_Next
@@ -119,7 +119,7 @@
             this.btn_Next.Name = "btn_Next";
             this.btn_Next.Size = new System.Drawing.Size(50, 50);
             this.btn_Next.TabIndex = 5;
-            this.btn_Next.Text = "button2";
+            this.btn_Next.Text = "Next";
             this.btn_Next.UseVisualStyleBackColor = true;
             // 
             // btn_Prev
@@ -128,7 +128,7 @@
             this.btn_Prev.Name = "btn_Prev";
             this.btn_Prev.Size = new System.Drawing.Size(50, 50);
             this.btn_Prev.TabIndex = 6;
-            this.btn_Prev.Text = "button3";
+            this.btn_Prev.Text = "Previo-us";
             this.btn_Prev.UseVisualStyleBackColor = true;
             // 
             // btn_7
@@ -137,7 +137,7 @@
             this.btn_7.Name = "btn_7";
             this.btn_7.Size = new System.Drawing.Size(50, 50);
             this.btn_7.TabIndex = 7;
-            this.btn_7.Text = "button4";
+            this.btn_7.Text = "7\r\n.,\"";
             this.btn_7.UseVisualStyleBackColor = true;
             // 
             // btn_8
@@ -146,7 +146,7 @@
             this.btn_8.Name = "btn_8";
             this.btn_8.Size = new System.Drawing.Size(50, 50);
             this.btn_8.TabIndex = 8;
-            this.btn_8.Text = "button5";
+            this.btn_8.Text = "8\r\nABC";
             this.btn_8.UseVisualStyleBackColor = true;
             // 
             // btn_9
@@ -155,7 +155,7 @@
             this.btn_9.Name = "btn_9";
             this.btn_9.Size = new System.Drawing.Size(50, 50);
             this.btn_9.TabIndex = 9;
-            this.btn_9.Text = "button6";
+            this.btn_9.Text = "9\r\nDEF";
             this.btn_9.UseVisualStyleBackColor = true;
             // 
             // btn_4
@@ -164,7 +164,7 @@
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(50, 50);
             this.btn_4.TabIndex = 10;
-            this.btn_4.Text = "button7";
+            this.btn_4.Text = "4\r\nGHI";
             this.btn_4.UseVisualStyleBackColor = true;
             // 
             // btn_5
@@ -173,7 +173,7 @@
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(50, 50);
             this.btn_5.TabIndex = 11;
-            this.btn_5.Text = "button8";
+            this.btn_5.Text = "5\r\nJKL";
             this.btn_5.UseVisualStyleBackColor = true;
             // 
             // btn_6
@@ -182,7 +182,7 @@
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(50, 50);
             this.btn_6.TabIndex = 12;
-            this.btn_6.Text = "button9";
+            this.btn_6.Text = "6\r\nMNO";
             this.btn_6.UseVisualStyleBackColor = true;
             // 
             // btn_1
@@ -191,7 +191,7 @@
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(50, 50);
             this.btn_1.TabIndex = 13;
-            this.btn_1.Text = "button10";
+            this.btn_1.Text = "1\r\nPQRS";
             this.btn_1.UseVisualStyleBackColor = true;
             // 
             // btn_2
@@ -200,7 +200,7 @@
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(50, 50);
             this.btn_2.TabIndex = 14;
-            this.btn_2.Text = "button11";
+            this.btn_2.Text = "2\r\nTUV";
             this.btn_2.UseVisualStyleBackColor = true;
             // 
             // btn_3
@@ -209,7 +209,7 @@
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(50, 50);
             this.btn_3.TabIndex = 15;
-            this.btn_3.Text = "button12";
+            this.btn_3.Text = "3\r\nWXYZ";
             this.btn_3.UseVisualStyleBackColor = true;
             // 
             // btn_Punc
@@ -218,7 +218,7 @@
             this.btn_Punc.Name = "btn_Punc";
             this.btn_Punc.Size = new System.Drawing.Size(50, 50);
             this.btn_Punc.TabIndex = 16;
-            this.btn_Punc.Text = "button13";
+            this.btn_Punc.Text = "\"-...";
             this.btn_Punc.UseVisualStyleBackColor = true;
             // 
             // btn_Space
@@ -227,7 +227,7 @@
             this.btn_Space.Name = "btn_Space";
             this.btn_Space.Size = new System.Drawing.Size(50, 50);
             this.btn_Space.TabIndex = 17;
-            this.btn_Space.Text = "button14";
+            this.btn_Space.Text = "000\r\n[ _ ]";
             this.btn_Space.UseVisualStyleBackColor = true;
             // 
             // btn_0
@@ -236,7 +236,7 @@
             this.btn_0.Name = "btn_0";
             this.btn_0.Size = new System.Drawing.Size(50, 50);
             this.btn_0.TabIndex = 18;
-            this.btn_0.Text = "button15";
+            this.btn_0.Text = "#\r\n000";
             this.btn_0.UseVisualStyleBackColor = true;
             // 
             // btn_SendPredict
@@ -245,7 +245,7 @@
             this.btn_SendPredict.Name = "btn_SendPredict";
             this.btn_SendPredict.Size = new System.Drawing.Size(50, 50);
             this.btn_SendPredict.TabIndex = 19;
-            this.btn_SendPredict.Text = "button16";
+            this.btn_SendPredict.Text = "Send Predic-ted";
             this.btn_SendPredict.UseVisualStyleBackColor = true;
             // 
             // btn_Blank
@@ -254,7 +254,6 @@
             this.btn_Blank.Name = "btn_Blank";
             this.btn_Blank.Size = new System.Drawing.Size(50, 50);
             this.btn_Blank.TabIndex = 20;
-            this.btn_Blank.Text = "button17";
             this.btn_Blank.UseVisualStyleBackColor = true;
             // 
             // btn_Blank2
@@ -263,7 +262,6 @@
             this.btn_Blank2.Name = "btn_Blank2";
             this.btn_Blank2.Size = new System.Drawing.Size(50, 50);
             this.btn_Blank2.TabIndex = 21;
-            this.btn_Blank2.Text = "button18";
             this.btn_Blank2.UseVisualStyleBackColor = true;
             // 
             // btn_Enter
@@ -272,7 +270,7 @@
             this.btn_Enter.Name = "btn_Enter";
             this.btn_Enter.Size = new System.Drawing.Size(50, 106);
             this.btn_Enter.TabIndex = 22;
-            this.btn_Enter.Text = "button19";
+            this.btn_Enter.Text = "Enter";
             this.btn_Enter.UseVisualStyleBackColor = true;
             // 
             // Form1
