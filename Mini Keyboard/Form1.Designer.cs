@@ -101,8 +101,9 @@
             this.txt_ModeStatus.Location = new System.Drawing.Point(362, 187);
             this.txt_ModeStatus.Name = "txt_ModeStatus";
             this.txt_ModeStatus.ReadOnly = true;
-            this.txt_ModeStatus.Size = new System.Drawing.Size(66, 20);
+            this.txt_ModeStatus.Size = new System.Drawing.Size(64, 20);
             this.txt_ModeStatus.TabIndex = 3;
+            this.txt_ModeStatus.Text = "Multi-Press";
             // 
             // btn_Mode
             // 
@@ -113,6 +114,7 @@
             this.btn_Mode.TabIndex = 4;
             this.btn_Mode.Text = "Mode";
             this.btn_Mode.UseVisualStyleBackColor = false;
+            this.btn_Mode.Click += new System.EventHandler(this.btn_Mode_Click);
             // 
             // btn_Next
             // 
