@@ -46,13 +46,29 @@ namespace Mini_Keyboard
             Click = Click + 1;
             if (Click == 1)
             {
-                Letter = "A";
+                Letter = "a";
             }
             else if (Click == 2)
             {
-                Letter = "B";
+                Letter = "b";
             }
             else if (Click == 3)
+            {
+                Letter = "c";
+            }
+            else if (Click == 4)
+            {
+                Letter = "8";
+            }
+            else if (Click == 5)
+            {
+                Letter = "A";
+            }
+            else if (Click == 6)
+            {
+                Letter = "B";
+            }
+            else if (Click == 7)
             {
                 Letter = "C";
                 Click = 0;
@@ -60,6 +76,11 @@ namespace Mini_Keyboard
 
         }
 
+        private void btn_Next_Click(object sender, EventArgs e)
+        {
+            txt_WordBuilder.AppendText(Letter);
+            Click = 0;
+        }
 
     }
 }
