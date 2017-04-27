@@ -155,7 +155,6 @@
             this.btn_8.TabIndex = 8;
             this.btn_8.Text = "8\r\nABC";
             this.btn_8.UseVisualStyleBackColor = false;
-            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             // 
             // btn_9
             // 
