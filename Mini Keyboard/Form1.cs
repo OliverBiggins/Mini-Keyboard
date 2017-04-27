@@ -18,6 +18,7 @@ namespace Mini_Keyboard
         int Interval = 5000;
         int Click = 0;
         string Letter;
+        string Word;
         string[] B9 = new string[7] { "d", "e", "f", "9", "D", "E", "F" };
         string[] B8 = new string[7] { "a", "b", "c", "8", "A", "B", "C" };
         string[] B7 = new string[7] { ".", "~", "''", "7", "'", ":", ";" };
@@ -145,6 +146,13 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+        }
+
+        private void btn_Space_Click(object sender, EventArgs e)
+        {
+            Word = txt_WordBuilder.Text;
+            txt_WordBuilder.Text = "";
+            txt_Notepad.AppendText(Word + " ");
         }
 
     }
