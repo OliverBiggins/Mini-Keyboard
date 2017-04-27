@@ -245,6 +245,7 @@
             this.btn_Punc.TabIndex = 16;
             this.btn_Punc.Text = "\"-...";
             this.btn_Punc.UseVisualStyleBackColor = false;
+            this.btn_Punc.Click += new System.EventHandler(this.btn_Punc_Click);
             // 
             // btn_Space
             // 
@@ -266,6 +267,7 @@
             this.btn_0.TabIndex = 18;
             this.btn_0.Text = "#\r\n000";
             this.btn_0.UseVisualStyleBackColor = false;
+            this.btn_0.Click += new System.EventHandler(this.btn_0_Click);
             // 
             // btn_SendPredict
             // 

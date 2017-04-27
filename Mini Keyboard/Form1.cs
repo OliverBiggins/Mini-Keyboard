@@ -124,7 +124,7 @@ namespace Mini_Keyboard
         {
             Click = Click + 1;
             Letter = B1[Click - 1];
-            if (Click == 7)
+            if (Click == 9)
             {
                 Click = 0;
             }
@@ -144,7 +144,7 @@ namespace Mini_Keyboard
         {
             Click = Click + 1;
             Letter = B3[Click - 1];
-            if (Click == 7)
+            if (Click == 9)
             {
                 Click = 0;
             }
@@ -155,6 +155,26 @@ namespace Mini_Keyboard
             Word = txt_WordBuilder.Text;
             txt_WordBuilder.Text = "";
             txt_Notepad.AppendText(Word + " ");
+        }
+
+        private void btn_0_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B0[Click - 1];
+            if (Click == 3)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_Punc_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = BSign[Click - 1];
+            if (Click == 3)
+            {
+                Click = 0;
+            }
         }
 
     }
