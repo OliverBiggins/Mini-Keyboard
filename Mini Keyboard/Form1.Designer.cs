@@ -53,6 +53,7 @@
             this.btn_Blank = new System.Windows.Forms.Button();
             this.btn_Blank2 = new System.Windows.Forms.Button();
             this.btn_Enter = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,7 +99,7 @@
             // 
             // txt_ModeStatus
             // 
-            this.txt_ModeStatus.Location = new System.Drawing.Point(362, 187);
+            this.txt_ModeStatus.Location = new System.Drawing.Point(356, 187);
             this.txt_ModeStatus.Name = "txt_ModeStatus";
             this.txt_ModeStatus.ReadOnly = true;
             this.txt_ModeStatus.Size = new System.Drawing.Size(64, 20);
@@ -308,11 +309,21 @@
             this.btn_Enter.UseVisualStyleBackColor = false;
             this.btn_Enter.Click += new System.EventHandler(this.btn_Enter_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 194);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(172, 13);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Press Next to move onto next letter";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 518);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Enter);
             this.Controls.Add(this.btn_Blank2);
             this.Controls.Add(this.btn_Blank);
@@ -372,6 +383,7 @@
         private System.Windows.Forms.Button btn_Blank;
         private System.Windows.Forms.Button btn_Blank2;
         private System.Windows.Forms.Button btn_Enter;
+        private System.Windows.Forms.Label label1;
 
     }
 }

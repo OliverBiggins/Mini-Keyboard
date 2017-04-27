@@ -19,6 +19,7 @@ namespace Mini_Keyboard
         int Click = 0;
         string Letter;
         string Word;
+        //Arrays for each button
         string[] B9 = new string[7] { "d", "e", "f", "9", "D", "E", "F" };
         string[] B8 = new string[7] { "a", "b", "c", "8", "A", "B", "C" };
         string[] B7 = new string[7] { ".", "~", "''", "7", "'", ":", ";" };
@@ -54,7 +55,7 @@ namespace Mini_Keyboard
 
         private void btn_8_Click_1(object sender, EventArgs e)
         {
-            
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B8[Click - 1];
             if (Click == 7)
@@ -66,12 +67,14 @@ namespace Mini_Keyboard
 
         private void btn_Next_Click(object sender, EventArgs e)
         {
+            //Moves on to the next letter in the word
             txt_WordBuilder.AppendText(Letter);
             Click = 0;
         }
 
         private void btn_7_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B7[Click - 1];
             if (Click == 7)
@@ -82,6 +85,7 @@ namespace Mini_Keyboard
 
         private void btn_9_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B9[Click - 1];
             if (Click == 7)
@@ -92,6 +96,7 @@ namespace Mini_Keyboard
 
         private void btn_4_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B4[Click - 1];
             if (Click == 7)
@@ -102,6 +107,7 @@ namespace Mini_Keyboard
 
         private void btn_5_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B5[Click - 1];
             if (Click == 7)
@@ -112,6 +118,7 @@ namespace Mini_Keyboard
 
         private void btn_6_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B6[Click - 1];
             if (Click == 7)
@@ -122,6 +129,7 @@ namespace Mini_Keyboard
 
         private void btn_1_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B1[Click - 1];
             if (Click == 9)
@@ -132,6 +140,7 @@ namespace Mini_Keyboard
 
         private void btn_2_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B2[Click - 1];
             if (Click == 7)
@@ -142,6 +151,7 @@ namespace Mini_Keyboard
 
         private void btn_3_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B3[Click - 1];
             if (Click == 9)
@@ -152,6 +162,7 @@ namespace Mini_Keyboard
 
         private void btn_Space_Click(object sender, EventArgs e)
         {
+            //Moves onto a new word and clears the word builder
             Word = txt_WordBuilder.Text;
             txt_WordBuilder.Text = "";
             txt_Notepad.AppendText(Word + " ");
@@ -159,6 +170,7 @@ namespace Mini_Keyboard
 
         private void btn_0_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = B0[Click - 1];
             if (Click == 3)
@@ -169,6 +181,7 @@ namespace Mini_Keyboard
 
         private void btn_Punc_Click(object sender, EventArgs e)
         {
+            //Cycles through button possibilities
             Click = Click + 1;
             Letter = BSign[Click - 1];
             if (Click == 3)
@@ -179,6 +192,7 @@ namespace Mini_Keyboard
 
         private void btn_Enter_Click(object sender, EventArgs e)
         {
+            //starts a new line in the notepad
             txt_Notepad.AppendText(Environment.NewLine);
         }
 
