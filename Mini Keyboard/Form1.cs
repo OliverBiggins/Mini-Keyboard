@@ -24,9 +24,9 @@ namespace Mini_Keyboard
         string[] B6 = new string[7] { "m", "n", "o", "6", "M", "N", "O" };
         string[] B5 = new string[7] { "j", "k", "l", "5", "J", "K", "L" };
         string[] B4 = new string[7] { "g", "h", "i", "4", "G", "H", "I" };
-        string[] B3 = new string[7] { "w", "x", "y", "z", "3", "W", "X", "Y", "Z" };
+        string[] B3 = new string[9] { "w", "x", "y", "z", "3", "W", "X", "Y", "Z" };
         string[] B2 = new string[7] { "t", "u", "v", "2", "T", "U", "V" };
-        string[] B1 = new string[7] { "p", "q", "r", "s", "1", "P", "Q", "R", "S" };
+        string[] B1 = new string[9] { "p", "q", "r", "s", "1", "P", "Q", "R", "S" };
 
         public Form1()
         {
@@ -65,6 +65,86 @@ namespace Mini_Keyboard
         {
             txt_WordBuilder.AppendText(Letter);
             Click = 0;
+        }
+
+        private void btn_7_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B7[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_9_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B9[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_4_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B4[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_5_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B5[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_6_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B6[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B1[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B2[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
+        }
+
+        private void btn_3_Click(object sender, EventArgs e)
+        {
+            Click = Click + 1;
+            Letter = B3[Click - 1];
+            if (Click == 7)
+            {
+                Click = 0;
+            }
         }
 
     }
