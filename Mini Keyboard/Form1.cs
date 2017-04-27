@@ -16,7 +16,16 @@ namespace Mini_Keyboard
         //Global Variables
         String Mode = "Multi-Press";
         int Interval = 500;
-        int Click = 0;
+
+        //Timer
+        void main()
+        {
+             timer = new Timer();
+             timer.Interval = 1000; // 1000 miliseconds = 1 second
+             timer.Tick += new EventHandler(timer_Tick);
+    timer.Enabled = true;
+}
+        }
         public Form1()
         {
             InitializeComponent();
@@ -39,7 +48,10 @@ namespace Mini_Keyboard
 
         private void btn_8_Click(object sender, EventArgs e)
         {
-            Click = Click++;
+            int EightClick = 0;
+            EightClick = EightClick++;
+            
+
         }
     }
 }
