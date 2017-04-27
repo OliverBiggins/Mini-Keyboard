@@ -15,7 +15,9 @@ namespace Mini_Keyboard
     {
         //Global Variables
         String Mode = "Multi-Press";
-        int Interval = 500;
+        int Interval = 5000;
+        int Click = 0;
+        string Letter;
 
         public Form1()
         {
@@ -38,13 +40,26 @@ namespace Mini_Keyboard
         }
 
 
-        private void btn_8_Click(object sender, EventArgs e)
+        private void btn_8_Click_1(object sender, EventArgs e)
         {
-            int EightClick = 0;
-            EightClick = EightClick++;
             
+            Click = Click + 1;
+            if (Click == 1)
+            {
+                Letter = "A";
+            }
+            else if (Click == 2)
+            {
+                Letter = "B";
+            }
+            else if (Click == 3)
+            {
+                Letter = "C";
+                Click = 0;
+            }
 
         }
+
 
     }
 }

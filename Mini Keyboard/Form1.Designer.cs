@@ -53,6 +53,7 @@
             this.btn_Blank = new System.Windows.Forms.Button();
             this.btn_Blank2 = new System.Windows.Forms.Button();
             this.btn_Enter = new System.Windows.Forms.Button();
+            this.lb_8 = new System.Windows.Forms.ListBox();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,6 +126,7 @@
             this.btn_Next.TabIndex = 5;
             this.btn_Next.Text = "Next";
             this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // btn_Prev
             // 
@@ -155,6 +157,7 @@
             this.btn_8.TabIndex = 8;
             this.btn_8.Text = "8\r\nABC";
             this.btn_8.UseVisualStyleBackColor = false;
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click_1);
             // 
             // btn_9
             // 
@@ -294,11 +297,24 @@
             this.btn_Enter.Text = "Enter";
             this.btn_Enter.UseVisualStyleBackColor = false;
             // 
+            // lb_8
+            // 
+            this.lb_8.FormattingEnabled = true;
+            this.lb_8.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "C"});
+            this.lb_8.Location = new System.Drawing.Point(464, 201);
+            this.lb_8.Name = "lb_8";
+            this.lb_8.Size = new System.Drawing.Size(20, 43);
+            this.lb_8.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 518);
+            this.Controls.Add(this.lb_8);
             this.Controls.Add(this.btn_Enter);
             this.Controls.Add(this.btn_Blank2);
             this.Controls.Add(this.btn_Blank);
@@ -358,6 +374,7 @@
         private System.Windows.Forms.Button btn_Blank;
         private System.Windows.Forms.Button btn_Blank2;
         private System.Windows.Forms.Button btn_Enter;
+        private System.Windows.Forms.ListBox lb_8;
 
     }
 }
