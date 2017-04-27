@@ -18,7 +18,15 @@ namespace Mini_Keyboard
         int Interval = 5000;
         int Click = 0;
         string Letter;
-        string[] B8 = new string[7] {"a", "b", "c", "8", "A", "B", "C"};
+        string[] B9 = new string[7] { "d", "e", "f", "9", "D", "E", "F" };
+        string[] B8 = new string[7] { "a", "b", "c", "8", "A", "B", "C" };
+        string[] B7 = new string[7] { ".", "~", "''", "7", "'", ":", ";" };
+        string[] B6 = new string[7] { "m", "n", "o", "6", "M", "N", "O" };
+        string[] B5 = new string[7] { "j", "k", "l", "5", "J", "K", "L" };
+        string[] B4 = new string[7] { "g", "h", "i", "4", "G", "H", "I" };
+        string[] B3 = new string[7] { "w", "x", "y", "z", "3", "W", "X", "Y", "Z" };
+        string[] B2 = new string[7] { "t", "u", "v", "2", "T", "U", "V" };
+        string[] B1 = new string[7] { "p", "q", "r", "s", "1", "P", "Q", "R", "S" };
 
         public Form1()
         {
