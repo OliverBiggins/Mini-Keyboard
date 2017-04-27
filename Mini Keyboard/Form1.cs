@@ -63,7 +63,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
-
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_Next_Click(object sender, EventArgs e)
@@ -84,6 +84,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_9_Click(object sender, EventArgs e)
@@ -95,6 +96,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_4_Click(object sender, EventArgs e)
@@ -106,6 +108,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_5_Click(object sender, EventArgs e)
@@ -117,6 +120,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_6_Click(object sender, EventArgs e)
@@ -128,6 +132,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_1_Click(object sender, EventArgs e)
@@ -139,6 +144,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_2_Click(object sender, EventArgs e)
@@ -150,6 +156,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_3_Click(object sender, EventArgs e)
@@ -161,6 +168,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_Space_Click(object sender, EventArgs e)
@@ -181,6 +189,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_Punc_Click(object sender, EventArgs e)
@@ -192,6 +201,7 @@ namespace Mini_Keyboard
             {
                 Click = 0;
             }
+            txt_CurrentLetter.Text = Letter;
         }
 
         private void btn_Enter_Click(object sender, EventArgs e)
