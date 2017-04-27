@@ -19,7 +19,7 @@ namespace Mini_Keyboard
         int Click = 0;
         string Letter;
         string Word;
-        int LetterPosition = 1;
+        int LetterPosition = 0;
         //Arrays for each button
         string[] B9 = new string[7] { "d", "e", "f", "9", "D", "E", "F" };
         string[] B8 = new string[7] { "a", "b", "c", "8", "A", "B", "C" };
@@ -71,6 +71,8 @@ namespace Mini_Keyboard
             //Moves on to the next letter in the word
             txt_WordBuilder.AppendText(Letter);
             Click = 0;
+            LetterPosition = LetterPosition + 1;
+
         }
 
         private void btn_7_Click(object sender, EventArgs e)
@@ -167,6 +169,7 @@ namespace Mini_Keyboard
             Word = txt_WordBuilder.Text;
             txt_WordBuilder.Text = "";
             txt_Notepad.AppendText(Word + " ");
+            LetterPosition = 0;
         }
 
         private void btn_0_Click(object sender, EventArgs e)
@@ -195,6 +198,7 @@ namespace Mini_Keyboard
         {
             //starts a new line in the notepad
             txt_Notepad.AppendText(Environment.NewLine);
+            LetterPosition = 0;
         }
 
     }
