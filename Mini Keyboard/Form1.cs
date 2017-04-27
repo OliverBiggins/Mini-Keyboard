@@ -18,6 +18,7 @@ namespace Mini_Keyboard
         int Interval = 5000;
         int Click = 0;
         string Letter;
+        string[] B8 = new string[7] {"a", "b", "c", "8", "A", "B", "C"};
 
         public Form1()
         {
@@ -44,33 +45,9 @@ namespace Mini_Keyboard
         {
             
             Click = Click + 1;
-            if (Click == 1)
+            Letter = B8[Click - 1];
+            if (Click == 7)
             {
-                Letter = "a";
-            }
-            else if (Click == 2)
-            {
-                Letter = "b";
-            }
-            else if (Click == 3)
-            {
-                Letter = "c";
-            }
-            else if (Click == 4)
-            {
-                Letter = "8";
-            }
-            else if (Click == 5)
-            {
-                Letter = "A";
-            }
-            else if (Click == 6)
-            {
-                Letter = "B";
-            }
-            else if (Click == 7)
-            {
-                Letter = "C";
                 Click = 0;
             }
 
