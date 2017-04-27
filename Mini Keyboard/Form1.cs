@@ -28,6 +28,8 @@ namespace Mini_Keyboard
         string[] B3 = new string[9] { "w", "x", "y", "z", "3", "W", "X", "Y", "Z" };
         string[] B2 = new string[7] { "t", "u", "v", "2", "T", "U", "V" };
         string[] B1 = new string[9] { "p", "q", "r", "s", "1", "P", "Q", "R", "S" };
+        string[] B0 = new string[3] { "#", "-", "_", };
+        string[] BSign = new string[3] { "*", "-", "_", };
 
         public Form1()
         {
