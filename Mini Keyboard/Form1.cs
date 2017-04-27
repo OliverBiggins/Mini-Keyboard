@@ -19,6 +19,7 @@ namespace Mini_Keyboard
         int Click = 0;
         string Letter;
         string Word;
+        int LetterPosition = 1;
         //Arrays for each button
         string[] B9 = new string[7] { "d", "e", "f", "9", "D", "E", "F" };
         string[] B8 = new string[7] { "a", "b", "c", "8", "A", "B", "C" };
@@ -58,7 +59,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B8[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -77,7 +78,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B7[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -88,7 +89,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B9[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -99,7 +100,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B4[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -110,7 +111,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B5[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -121,7 +122,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B6[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -132,7 +133,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B1[Click - 1];
-            if (Click == 9)
+            if (Click >= 9)
             {
                 Click = 0;
             }
@@ -143,7 +144,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B2[Click - 1];
-            if (Click == 7)
+            if (Click >= 7)
             {
                 Click = 0;
             }
@@ -154,7 +155,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B3[Click - 1];
-            if (Click == 9)
+            if (Click >= 9)
             {
                 Click = 0;
             }
@@ -173,7 +174,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = B0[Click - 1];
-            if (Click == 3)
+            if (Click >= 3)
             {
                 Click = 0;
             }
@@ -184,7 +185,7 @@ namespace Mini_Keyboard
             //Cycles through button possibilities
             Click = Click + 1;
             Letter = BSign[Click - 1];
-            if (Click == 3)
+            if (Click >= 3)
             {
                 Click = 0;
             }
